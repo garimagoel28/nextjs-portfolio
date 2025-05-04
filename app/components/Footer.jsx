@@ -16,9 +16,9 @@ const Footer = () => {
       <div className="sm:flex items-center justify-between border-t-2 border-gray-400 mx-[10%] mt-12 py-6 text-center">
         <p>© 2025 Garima Goel. All rights reserved.</p>
         <ul className="flex gap-10 items-center justify-center mt-4 sm:mt-0">
-            <li><a target="_blank" href="">Github</a></li>
-            <li><a target="_blank" href=""></a>LinkedIn</li>
-            <li><a target="_blank" href="">Leetcode</a></li>
+            <li className="cursor-pointer"><a target="_blank" href="">Github</a></li>
+            <li className="cursor-pointer"><a target="_blank" href=""></a>LinkedIn</li>
+            <li className="cursor-pointer"><a target="_blank" href="">Leetcode</a></li>
             
         </ul>
       </div>
